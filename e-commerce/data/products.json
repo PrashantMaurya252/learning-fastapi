@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Brush",
+    "price": 25,
+    "category": "Stationery",
+    "in_stock": true
+  },
+  {
+    "id": 2,
+    "name": "Pencil",
+    "price": 10,
+    "category": "Stationery",
+    "in_stock": true
+  },
+  {
+    "id": 3,
+    "name": "Book",
+    "price": 150,
+    "category": "Books",
+    "in_stock": true
+  },
+  {
+    "id": 4,
+    "name": "Pen",
+    "price": 20,
+    "category": "Stationery",
+    "in_stock": false
+  },
+  {
+    "id": 5,
+    "name": "Notebook",
+    "price": 80,
+    "category": "Stationery",
+    "in_stock": true
+  },
+  {
+    "id": 6,
+    "name": "Eraser",
+    "price": 5,
+    "category": "Stationery",
+    "in_stock": true
+  },
+  {
+    "id": 7,
+    "name": "Marker",
+    "price": 35,
+    "category": "Stationery",
+    "in_stock": true
+  },
+  {
+    "id": 8,
+    "name": "Geometry Box",
+    "price": 120,
+    "category": "Stationery",
+    "in_stock": false
+  }
+]

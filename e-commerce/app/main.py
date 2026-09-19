@@ -1,5 +1,8 @@
 from fastapi import FastAPI,HTTPException,Query,Path
 from app.service.products import get_all_product
+from pydantic import BaseModel,Field
+from typing import Annotated
+from app.schema.product import Product
 
 app = FastAPI()
 
@@ -54,3 +57,10 @@ def product_details(id:int=Path(...,ge=0,description="UUID of products")):
         if product["id"] == id:
             return product
     raise HTTPException(status_code=404,detail="Product not found")
+
+
+
+
+@app.post("/create-product",status_code=201)
+def create_product(product:Product):
+    return product

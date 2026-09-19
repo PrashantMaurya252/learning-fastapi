@@ -1,58 +1,74 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Brush",
     "price": 25,
     "category": "Stationery",
-    "in_stock": true
+    "in_stock": true,
+    "tags":["Daily Use","Nothing1"],
+    "stock":50
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "Pencil",
     "price": 10,
     "category": "Stationery",
-    "in_stock": true
+    "in_stock": true,
+    "tags":["Daily Use1","Nothing2"],
+     "stock":50
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "Book",
     "price": 150,
     "category": "Books",
-    "in_stock": true
+    "in_stock": true,
+    "tags":["Daily Use2","Nothing3"],
+     "stock":50
   },
   {
-    "id": 4,
+    "id": "4",
     "name": "Pen",
     "price": 20,
     "category": "Stationery",
-    "in_stock": false
+    "in_stock": false,
+    "tags":["Daily Use3","Nothing4"],
+     "stock":50
   },
   {
-    "id": 5,
+    "id": "5",
     "name": "Notebook",
     "price": 80,
     "category": "Stationery",
-    "in_stock": true
+    "in_stock": true,
+    "tags":["Daily Use4","Nothing5"],
+     "stock":50
   },
   {
-    "id": 6,
+    "id": "6",
     "name": "Eraser",
     "price": 5,
     "category": "Stationery",
-    "in_stock": true
+    "in_stock": true,
+    "tags":["Daily Use5","Nothing6"],
+     "stock":50
   },
   {
-    "id": 7,
+    "id": "7",
     "name": "Marker",
     "price": 35,
     "category": "Stationery",
-    "in_stock": true
+    "in_stock": true,
+    "tags":["Daily Use6","Nothing7"],
+     "stock":50
   },
   {
-    "id": 8,
+    "id": "8",
     "name": "Geometry Box",
     "price": 120,
     "category": "Stationery",
-    "in_stock": false
+    "in_stock": false,
+    "tags":["Daily Use7","Nothing8"],
+     "stock":50
   }
 ]
